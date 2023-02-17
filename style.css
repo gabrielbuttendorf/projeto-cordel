@@ -11,14 +11,14 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 300px;
+    min-height: 30vh;
 }
 
 header h1 {
-    padding-top: 100px;
+    padding-top: 9vh;
     font-family: 'Passion One', cursive;
     font-weight: bold;
-    font-size: 5.5em;
+    font-size: 8vw;
 }
 
 header p {
@@ -39,8 +39,8 @@ header a:hover {
 
 section p {
     font-family: 'Sriracha', cursive;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 3.5vw;
+    line-height: 7vw;
     padding: 50px;
 }
 
@@ -59,6 +59,7 @@ section.imagem p {
 section.imagem{
     background-position: center right;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 section#img1 {
