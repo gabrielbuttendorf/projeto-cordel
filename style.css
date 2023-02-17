@@ -33,7 +33,7 @@ header a {
 }
 
 header a:hover {
-    color: #cfdbc3;
+    color: #969E82;
     transition-duration: 0.3s;
 }
 
@@ -69,6 +69,42 @@ section#img1 {
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+}
+
+aside {
+    background-color: #969E82;
+    margin: 40px 30px;
+    padding: 20px;
+    padding-bottom: 60%;
+    border-radius: 0px 0px 15px 0px;
+
+    position: relative;
+}
+
+aside h2{
+    background-color: #4f5343;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 2.5vw;
+    padding: 10px;
+    margin: -40px -20px 0px -20px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+aside > iframe {
+    width: 80%;
+    height: 600px;
+
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    height: 60%;
 }
 
 footer {
