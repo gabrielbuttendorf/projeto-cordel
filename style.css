@@ -48,18 +48,21 @@ section.normal {
     background-color: white;
 }
 
+
+section.imagem{
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.568);
+}
+
 section.imagem p {
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
     padding: 20px;
     margin: 50px 30px;
-}
-
-section.imagem{
-    background-position: center right;
-    background-attachment: fixed;
-    background-size: cover;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
 }
 
 section#img1 {
