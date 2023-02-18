@@ -3,27 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Sriracha', cursive;
+    --fonte03: 'Passion One', cursive;
+
+}
+
 * {
     margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 30vh;
 }
 
 header h1 {
-    padding-top: 9vh;
-    font-family: 'Passion One', cursive;
+    padding-top: 50px;
+    font-family: var(--fonte03);
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header p {
-    padding-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+    font-family: var(--fonte01);
     font-weight: normal;
 }
 
@@ -37,11 +48,18 @@ header a:hover {
     transition-duration: 0.3s;
 }
 
-section p {
-    font-family: 'Sriracha', cursive;
+section {
+    line-height: 2em;
+    padding-left: 30px;
     font-size: 3.5vw;
-    line-height: 7vw;
-    padding: 50px;
+    font-family: var(--fonte02);
+}
+
+section p {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 section.normal {
@@ -50,27 +68,25 @@ section.normal {
 
 
 section.imagem{
-    background-position: center right;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.568);
+    box-shadow: inset 0px 6px 10px 0px rgba(0, 0, 0, 0.568);
 }
 
 section.imagem p {
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
-    padding: 20px;
-    margin: 50px 30px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
 }
 
-section#img1 {
+section#img01 {
     background-image: url(imagens/background001.jpg);
 
 }
 
-section#img2 {
+section#img02 {
     background-image: url(imagens/background002.jpg);
 }
 
