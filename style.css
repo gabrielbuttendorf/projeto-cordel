@@ -50,7 +50,6 @@ header a:hover {
 
 section {
     line-height: 2em;
-    padding-left: 30px;
     font-size: 3.5vw;
     font-family: var(--fonte02);
 }
@@ -58,6 +57,7 @@ section {
 section p {
     margin-top: 10vh;
     margin-bottom: 10vh;
+    margin-left: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
